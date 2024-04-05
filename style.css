@@ -48,7 +48,37 @@
 
 #banner {
     width: 100%;
-    background-image: url("ảnh/thực đơn tiệc cưới 1.png");
+    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 1.png");
+    height: 463px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+
+}
+#banner {
+    width: 100%;
+    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 2.png");
+    height: 463px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+
+}
+#banner {
+    width: 100%;
+    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 3.png");
+    height: 463px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+
+}
+#banner {
+    width: 100%;
+    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 4.png");
     height: 463px;
     margin-top: 40px;
     display: flex;
