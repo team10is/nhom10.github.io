@@ -15,7 +15,7 @@
     <div id="warpper">
         <div id="header">
             <a href="" class="logo">
-                <img src="ảnh/logo.png" alt="">
+                <img src="logo.png" alt="">
             </a>
             <div id="menu">
                 <div class="item">
@@ -31,39 +31,195 @@
                     <a href="">Liên hệ</a>
                 </div>
             </div>
-            <div id="actions">
-                <div class="item">
-                    <img src="anhthucdon/thực đơn tiệc cưới 1.png"
-                        alt="">
+        </div>
+        <div id="banner" class="swiper-container">
+            <div class=" ">
+                <!-- Slide 1 content -->
+                <div class="box-left"></div>
+                <h2>
+
+                </h2>
+
+            </div>
+            <div class="swiper-wrapper" style="margin-top: 2rem;">
+
+                <div class="swiper-slide">
+                    STANDARD SET
+
+                    <!-- Slide 2 content -->
+                    <img style="width: 100%; object-fit: cover; height: 400px;" src="./thực đơn tiệc cưới 1.png" alt="">
+                    <!-- You can add more slides here -->
                 </div>
-                <div class="item">
-                    <img src="anhthucdon/thực đơn tiệc cưới 2.png"
-                        alt="">
+                <div class="swiper-slide">
+                    PREMIUM SET
+                    <!-- Slide 2 content -->
+                    <img style="width: 100%; object-fit: cover; height: 400px;" src="./thực đơn tiệc cưới 2.png" alt="">
+                    <!-- You can add more slides here -->
                 </div>
-                <div class="item">
-                    <img src="anhthucdon/thực đơn tiệc cưới 3.png"
-                        alt="">
+                <div class="swiper-slide">
+                    VIP SET
+                    <!-- Slide 2 content -->
+                    <img style="width: 100%; object-fit: cover; height: 400px;" src="./thực đơn tiệc cưới 3.png" alt="">
+                    <!-- You can add more slides here -->
                 </div>
-                <div class="item">
-                    <img src="anhthucdon/thực đơn tiệc cưới 4.png"
-                        alt="">
+            </div>
+            <p>Một buổi tiệc chiêu đãi hoàn hảo trong ngày cưới sẽ thể hiện lòng mến khách của gia đình cũng như tương
+                lai thịnh vượng cho đôi bạn trẻ.</p>
+            <button>TƯ VẤN NGAY</button>
+            <!-- Add pagination -->
+            <div class="swiper-pagination" style="margin-bottom: 1rem;"></div>
+        </div>
+        <div class="to-bottom">
+            <a href="">
+                <img src="assets/to_bottom.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!-- Thư viện Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Script JavaScript để khởi tạo Swiper -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                slidesPerView: 1,
+
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        });
+    </script>
+    <div id="wp-products">
+        <h2>MENU GỢI Ý</h2>
+        <div class="swiper-container1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu1.png" alt="">
+                        <div class="name">MENU STANDARD SET1</div>
+                        <div class="price">4.000.000</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu2.png" alt="">
+                        <div class="name">MENU STANDARD SET2</div>
+                        <div class="price">4.000.000</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu3.png" alt="">
+                        <div class="name">MENU PREMIUM SET1</div>
+                        <div class="price">6.000.000</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu4.png" alt="">
+                        <div class="name">MENU PREMIUM SET2</div>
+                        <div class="price">6.000.000</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu5.png" alt="">
+                        <div class="name">MENU PREMIUM SET3</div>
+                        <div class="price">6.000.000</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu6.png" alt="">
+                        <div class="name">MENU VIP SET1</div>
+                        <div class="price">8.000.000</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="menu7.png" alt="">
+                        <div class="name">MENU VIP SET2</div>
+                        <div class="price">8.000.000</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="banner">
-            <div class="box-left"></div>
-            <h2>
-                <span>THỰC ĐƠN GỢI Ý</span>
-                <br>
-                <span>STANDARD SET</span>
-            </h2>
-            <P>Một buổi tiệc chiêu đãi hoàn hảo trong ngày cưới thể hiện lòng mến khách của gia đình cũng như tương lai thịnh vượng cho dôi bạn trẻ.</P>
-            <button>TƯ VẤN NGAY</button>
+    </div>
+    <!-- Thư viện Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+        /* CSS cho Swiper */
+        .swiper-container1 {
+            padding: 20px;
+        }
+
+        .swiper-container1 .swiper-slide {
+            width: auto;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+
+        .swiper-container1 .item {
+            text-align: center;
+        }
+
+        .swiper-container1 .item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .swiper-container1 .name {
+            font-weight: bold;
+        }
+
+        .swiper-container1 .price {
+            color: #007bff;
+        }
+    </style>
+    <!-- Script JavaScript để khởi tạo Swiper -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.swiper-container1', {
+                loop: true,
+                slidesPerView: 1,
+                autoplay: {
+                    delay: 5000, // Thời gian tự động chuyển slide là 5 giây
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    992: {
+                        slidesPerView: 3,
+                    },
+                    1200: {
+                        slidesPerView: 4,
+                    },
+                },
+            });
+        });
+    </script>
 
 
-        </div>
 
-
-</body>
 
 </html>
