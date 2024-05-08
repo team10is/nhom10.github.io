@@ -1,88 +1,122 @@
-* {
-    padding: 0;
+/* Reset some default styles */
+body,
+html {
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'points', sans-serif;
-    cursor: pointer;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-#wrapper {
-    /* Kích thước màn hình là 1280 x 720 */
-    width: 100%;
-    height: 100vh;
+/* General styles for wrapper */
+#warpper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+/* Header styles */
 #header {
-    width: 100%;
-    padding: 0px 30px;
-    margin-top: 33px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100px;
 }
 
 #menu {
-    list-style: none;
     display: flex;
 }
 
-#menu .item a {
-    margin: 0px 25px;
+.item {
+    margin-right: 20px;
 }
 
-#menu .item a {
-    color: #626a67;
-    text-decoration: none;
-}
-
-#actions {
-    display: flex;
-}
-
-#actions .item {
-    margin-left: 22px;
-}
-
-
-
-
+/* Banner styles */
 #banner {
-    width: 100%;
-    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 1.png");
-    height: 463px;
-    margin-top: 40px;
-    display: flex;
-    padding: 0px 133px;
-    position: relative;
-
+    text-align: center;
+    margin-bottom: 40px;
 }
-#banner {
-    width: 100%;
-    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 2.png");
-    height: 463px;
-    margin-top: 40px;
-    display: flex;
-    padding: 0px 133px;
-    position: relative;
 
+.box-left {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
 }
-#banner {
-    width: 100%;
-    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 3.png");
-    height: 463px;
-    margin-top: 40px;
-    display: flex;
-    padding: 0px 133px;
-    position: relative;
 
+h2 {
+    font-size: 32px;
+    font-weight: bold;
 }
-#banner {
-    width: 100%;
-    background-image: url("anhthucdon/thực\ đơn\ tiệc\ cưới\ 4.png");
-    height: 463px;
-    margin-top: 40px;
-    display: flex;
-    padding: 0px 133px;
-    position: relative;
 
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Right box images */
+.box-right img {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Menu products */
+#wp-products {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#list-products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 200px;
+    margin: 0 10px 20px;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.price {
+    color: #007bff;
+    margin-top: 5px;
+}
+
+/* To bottom link */
+.to-bottom {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.to-bottom img {
+    max-width: 50px;
+}
+html {
+    overflow-x: hidden ;
+}
+
+
