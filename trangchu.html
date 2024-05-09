@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Wedding web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tong.css">
+  </head>
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+            <a href="#home" >WEDDING&<span>TIME</span></a>
+      
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
+            <a href="#about" >Trang chủ</a>
+            <a href="#services" >Menu</a>
+            <a href="#careers" >Địa điểm</a>
+            <a href="#contact" >Liên hệ</a>            
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">WEDDING&<span>TIME</span></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#about" onclick="toggleMobileNavigation()">Trang chủ</a>
+            <a href="#services" onclick="toggleMobileNavigation()">Menu</a>
+            <a href="#careers" onclick="toggleMobileNavigation()">Địa điểm</a>
+            <a href="#contact" onclick="toggleMobileNavigation()">Liên hệ</a>
+          </div>
+        </nav>                                                                                   
+      </div>
+
+
+      <div class="hero" id="home">
+        <div class="text container">
+          <h0><p class="pre-title">WEDDING&TIME</p></h0>
+          <h1 class="title">SÁNG TẠO
+          <p class="post-title">Kết nối để tạo nên sự khác biệt</p></h1>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#services1">Dịch vụ của chúng tôi</a>
+        </div>
+      </div>
+
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>Về chúng tôi</h2>
+          <p>Trung tâm tổ chức sự kiện Wedding & Time là địa chỉ tin cậy và uy tín hàng đầu khi bạn muốn tổ chức những sự kiện đặc biệt như đám cưới, sinh nhật, tiệc liên hoan hay các sự kiện gia đình khác. Với nhiều năm kinh nghiệm trong lĩnh vực này, chúng tôi tự hào là đơn vị cung cấp các dịch vụ tổ chức sự kiện chuyên nghiệp và sáng tạo.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="about.html">đọc tiếp</a>
+        </div>
+        <div class="text-one">
+          <h2>Sứ mệnh của chúng tôi</h2>
+          <p>Tại Trung tâm tổ chức sự kiện Weđing&Time, chúng tôi hiểu rằng mỗi sự kiện là duy nhất và đặc biệt. Vì vậy, đội ngũ chuyên gia của chúng tôi luôn nỗ lực hết mình để thiết kế và tổ chức những sự kiện độc đáo, ấn tượng và đáp ứng mọi yêu cầu của khách hàng. Từ việc lựa chọn địa điểm, trang trí không gian, đến việc chuẩn bị thực đơn, âm thanh ánh sáng và các hoạt động giải trí, chúng tôi đều thực hiện một cách tỉ mỉ và chuyên nghiệp.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="vision.html">đọc tiếp</a>
+        </div>
+      </div>
+
+
+      <div class="w3-panel w3-highway-blue numbers">
+        <h2 class="w3-center w3-xxxlarge">Chúng tôi có</h2>
+        <p class="w3-center w3-xxxlarge show-medium">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g id="Down-arrow">
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+              L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+          </svg>
+        </p>
+        <div class="container w3-padding-large">
+          <div class="text">
+            <p class="number">4</p>
+            <p>Dịch vụ</p>
+          </div>
+          <div class="text">
+            <p class="number">4</p>
+            <p>Nhân sự</p>
+          </div>
+          <div class="text">
+            <p class="number">1 năm</p>
+            <p>Kinh nghiệm</p>
+          </div>
+          <div class="text">
+            <p class="number">2</p>
+            <p>Thành tựu</p>
+          </div>
+        </div>
+      </div>
+	  <div>
+    
+		
+	  </div>
+
+      <div>
+<head>
+    <link rel="stylesheet" type="text/css" href="tong.css" />
+</head>
+<!--dịch vụ-->
+<!--Ảnh chạy ngang-->
+<div class="slider">
+  <div class="list">
+      <div class="item">
+          <img src="ảnh/wedding/backdrop2.jpg" height="600px"; width="200px"; alt="">
+      </div>
+      <div class="item">
+          <img src="ảnh/ăn hỏi/wedding nhà/ăn hỏi-Quang-Trang.jpg" height="600px"; width="200px"; alt="">
+      </div>
+      <div class="item">
+          <img src="ảnh/decor bàn tiệc/bàn 1.jpg" height="600px"; width="200px"; alt="">
+      </div>
+      <div class="item">
+          <img src="ảnh/thiệp cưới/thiệp 4.jpg" height="600px"; width="200px"; alt="">
+      </div>
+      <div class="item">
+          <img src="ảnh/wedding/trời 2.jpg" height="600px"; width="200px"; alt="">
+      </div>
+      <div class="item">
+          <img src="ảnh/birthday.jpg" height="600px"; width="200px"; alt="">
+      </div>
+  </div>
+<!--Nút bấm Trái Phải-->
+<div class="buttons">
+  <button id="prev"></button>
+  <button id="next">></button>
+</div>
+<ul class="dots">
+  <li class="active"></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</div>
+
+<script src="tong.js"></script>
+</body>
+
+
+
+<!--Dịch vụ-->
+
+<div class="services container" id="services1">
+  <div class="content w3-container">
+      <div class="card-text" style="padding-bottom: 20px;">
+        <ul style="list-style-type: none;">
+        </ul>
+      </div>
+  </div>
+</div>
+  <h2 class="w3-center w3-margin-top">Những dịch vụ đặc biệt của W&T</h2>
+</div>
+
+<div class="about container w3-padding-large" id="about">
+  <div class="text-one">
+    <h5> Wedding </h5>
+    
+    <p>Chúng tôi đã đồng hành cùng rất nhiều cặp đôi trong khoảng thời gian qua. Hãy cùng chiêm ngưỡng những trang trí ấn tượng và những khoảnh khắc đẹp nhất trong mỗi đám cưới mà chúng tôi đã tạo nên.</p>
+    <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="about.html">đọc tiếp</a>
+  <div class="wedding">
+
+  </div>
+  </div>
+   <div class="text-one">
+    <img src="ảnh/cặp đôi/ngo thanh van- huy tran.jpg" width="600px"/>
+    <img src="ảnh/cặp đôi/phuong nga- binh an.jpeg" width="600px"/>
+  </div>
+</div>
+
+
+<div class="about container w3-padding-large" id="about">
+   <div class="text-one">
+    <img src="ảnh/thiệp cưới/thiệp 2.jpg" width="600px" height="400px"/>
+   </div>
+  <div class="text-one">
+      <h5>Style & Decor</h5>
+      <p>  Chúng tôi luôn tìm thấy rất nhiều niềm vui khi được sáng tạo và mang tới những điều xinh đẹp. Từ một buổi cầu hôn đến những bữa tiệc theo chủ đề hay styling cho một buổi chụp ảnh, chúng tôi luôn hào hứng khi được tận dụng trí tưởng tượng và tạo nên những khoảnh khắc đáng nhớ.</p>
+      <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="about.html">đọc tiếp</a>
+  <div class="wedding">
+      <img src="ảnh/ăn hỏi/decor background an hoi.jpg" width="600px"; height="500px"/>
+  </div>
+  </div>
+</div> 
+
+
+
+ 
+
+
+<!--thực đơn-->
+<div class="services container" id="services">
+  <div class="content w3-container">
+      <div class="card-text" style="padding-bottom: 20px;">
+        <ul style="list-style-type: none;">
+        </ul>
+      </div>
+  </div>
+</div>
+
+      <!doctype html>
+      <html lang="en">
+      
+      <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>THỰC ĐƠN TIỆC CƯỚI </title>
+          <link rel="stylesheet" href="style.css">
+      </head>
+      
+      <body>
+      
+      
+          <div id="warpper">
+              <div id="header">
+
+                  </div>
+              </div>
+              <div id="banner" class="swiper-container">
+                  <div class=" ">
+                      <!-- Slide 1 content -->
+
+                  <div class="swiper-wrapper" style="margin-top: 15rem;">
+      
+                      <div class="swiper-slide">
+                          STANDARD SET
+      
+                          <!-- Slide 2 content -->
+                          <img style="width: 100%; object-fit: cover; height: 400px;" src="anhthucdon/thực đơn tiệc cưới 1.png" alt="">
+                          <!-- You can add more slides here -->
+                      </div>
+                      <div class="swiper-slide">
+                          PREMIUM SET
+                          <!-- Slide 2 content -->
+                          <img style="width: 100%; object-fit: cover; height: 400px;" src="anhthucdon/thực đơn tiệc cưới 2.png" alt="">
+                          <!-- You can add more slides here -->
+                      </div>
+                      <div class="swiper-slide">
+                          VIP SET
+                          <!-- Slide 2 content -->
+                          <img style="width: 100%; object-fit: cover; height: 400px;" src="anhthucdon/thực đơn tiệc cưới 3.png" alt="">
+                          <!-- You can add more slides here -->
+                      </div>
+                  </div>
+                  <p>Một buổi tiệc chiêu đãi hoàn hảo trong ngày cưới sẽ thể hiện lòng mến khách của gia đình cũng như tương
+                      lai thịnh vượng cho đôi bạn trẻ.</p>
+                  <button>TƯ VẤN NGAY</button>
+                  <!-- Add pagination -->
+                  <div class="swiper-pagination" style="margin-bottom: 1rem;"></div>
+              </div>
+              <div class="to-bottom">
+                  <a href="">
+                      <img src="assets/to_bottom.png" alt="">
+                  </a>
+              </div>
+          </div>
+      
+          <!-- Thư viện Swiper -->
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
+          <!-- Script JavaScript để khởi tạo Swiper -->
+          <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                  var swiper = new Swiper('.swiper-container', {
+                      loop: true,
+                      slidesPerView: 1,
+      
+                      autoplay: {
+                          delay: 5000,
+                          disableOnInteraction: false,
+      
+                      },
+                      pagination: {
+                          el: '.swiper-pagination',
+                          clickable: true,
+                      },
+                  });
+              });
+          </script>
+          <div id="wp-products">
+              <h2>MENU GỢI Ý</h2>
+              <div class="swiper-container1">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu1.png" alt="">
+                              <div class="name">MENU STANDARD SET1</div>
+                              <div class="price">4.000.000</div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu2.png" alt="">
+                              <div class="name">MENU STANDARD SET2</div>
+                              <div class="price">4.000.000</div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu3.png" alt="">
+                              <div class="name">MENU PREMIUM SET1</div>
+                              <div class="price">6.000.000</div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu4.png" alt="">
+                              <div class="name">MENU PREMIUM SET2</div>
+                              <div class="price">6.000.000</div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu5.png" alt="">
+                              <div class="name">MENU PREMIUM SET3</div>
+                              <div class="price">6.000.000</div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu6.png" alt="">
+                              <div class="name">MENU VIP SET1</div>
+                              <div class="price">8.000.000</div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="item">
+                              <img src="anhthucdon/menu7.png" alt="">
+                              <div class="name">MENU VIP SET2</div>
+                              <div class="price">8.000.000</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Thư viện Swiper -->
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <style>
+              /* CSS cho Swiper */
+              .swiper-container1 {
+                  padding: 20px;
+              }
+      
+              .swiper-container1 .swiper-slide {
+                  width: auto;
+                  padding: 10px;
+                  box-sizing: border-box;
+                  display: flex;
+                  justify-content: center;
+              }
+      
+              .swiper-container1 .item {
+                  text-align: center;
+              }
+      
+              .swiper-container1 .item img {
+                  max-width: 100%;
+                  height: auto;
+                  margin-bottom: 10px;
+              }
+      
+              .swiper-container1 .name {
+                  font-weight: bold;
+              }
+      
+              .swiper-container1 .price {
+                  color: #007bff;
+              }
+          </style>
+          <!-- Script JavaScript để khởi tạo Swiper -->
+          <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                  var swiper = new Swiper('.swiper-container1', {
+                      loop: true,
+                      slidesPerView: 1,
+                      autoplay: {
+                          delay: 5000, // Thời gian tự động chuyển slide là 5 giây
+                          disableOnInteraction: false,
+                      },
+                      navigation: {
+                          nextEl: '.swiper-button-next',
+                          prevEl: '.swiper-button-prev',
+                      },
+                      breakpoints: {
+                          768: {
+                              slidesPerView: 2,
+                          },
+                          992: {
+                              slidesPerView: 3,
+                          },
+                          1200: {
+                              slidesPerView: 4,
+                          },
+                      },
+                  });
+              });
+          </script>
+      
+      
+      
+      
+      </html>
+
+
+
+</html>
+    <div class="careers container" id="careers">
+      <div class="content w3-container">
+          <div class="card-text" style="padding-bottom: 20px;">
+            <ul style="list-style-type: none;">
+            </ul>
+          </div>
+      </div>
+    </div>
+        <h2 class="w3-center">Những nơi tổ chức sự kiện độc quyền với W&T</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+          
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Wedding Slideshow</title>
+              <link rel="stylesheet" href="diadiem.css.css">
+          </head>
+          <body>
+              <div class="slideshow-container">
+                  <div class="mySlides fade">
+                      <img src="anhdiadiem/434301066_3819461541644592_3167946940156395728_n.png" style="width:100%">
+                  </div>
+          
+                  <div class="mySlides fade">
+                      <img src="anhdiadiem/434692886_942230600932039_3063575693844864665_n.png" style="width:100%">
+                  </div>
+          
+                  <div class="mySlides fade">
+                      <img src="anhdiadiem/434763476_959132549330329_4127821906919075872_n.png" style="width:100%">
+                  </div>
+          
+                  <div class="mySlides fade">
+                      <img src="anhdiadiem/434945816_938118857991517_1652553106296948286_n.png" style="width:100%">
+                  </div>
+          
+                  <div class="mySlides fade">
+                      <img src="anhdiadiem/435856869_330428963384130_4643890276165849477_n.png" style="width:100%">
+                  </div>
+          
+                  <div class="mySlides fade">
+                      <img src="anhdiadiem/437893352_640517684908116_600408236926485047_n.png" style="width:100%">
+                  </div>
+              </div>
+          
+              <script src="diadiem.js"></script>
+      
+                 
+                </ul>
+               
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Liên hệ</a>
+              </footer>
+            </div>
+        </div>
+      </div>
+
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liên hệ</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Liên hệ</title>
+          <link rel="stylesheet" href="tong.css">
+          <style>
+              body {
+                  font-family: Arial, sans-serif;
+                  background-color: #f2f2f2;
+              }
+      
+              .contact-box {
+                  max-width: 400px;
+                  margin: 50px auto;
+                  padding: 30px;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                  background-color: #fff;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                  transition: box-shadow 0.3s ease;
+              }
+      
+              .contact-box:hover {
+                  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+              }
+      
+              .contact-box h1 {
+                  font-size: 24px;
+                  margin-bottom: 20px;
+                  color: #333;
+                  text-align: center;
+              }
+      
+              .contact-box p {
+                  margin-bottom: 15px;
+                  color: #666;
+                  line-height: 1.5;
+              }
+      
+              .contact-box p:last-child {
+                  margin-bottom: 0;
+              }
+      
+              .contact-box label {
+                  font-weight: bold;
+                  color: #333;
+              }
+      
+              .contact-box input[type="text"],
+              .contact-box input[type="email"],
+              .contact-box textarea {
+                  width: calc(100% - 16px);
+                  padding: 10px;
+                  margin-bottom: 15px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  transition: border-color 0.3s ease;
+              }
+      
+              .contact-box input[type="text"]:focus,
+              .contact-box input[type="email"]:focus,
+              .contact-box textarea:focus {
+                  border-color: #4CAF50;
+              }
+      
+              .contact-box input[type="submit"] {
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 12px 24px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  transition: background-color 0.3s ease;
+                  display: block;
+                  width: 100%;
+              }
+              .contact-box input[type="submit"]:hover {
+                  background-color: #45a049;
+              }      
+              .contact-box form {
+                  margin-top: 20px;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="contact-box">
+              <h1>Thông tin liên hệ</h1>
+              <p>Nếu bạn có bất kỳ câu hỏi hoặc ý kiến nào, xin đừng ngần ngại liên hệ với chúng tôi.</p>
+              <p>Địa chỉ: Phạm văn đồng,cầu giấy,Hà nội</p>
+              <p>Điện thoại: 03571829271-0827917263</p>
+              <p>Email: info@weddingandtime.com</p>
+              <form action="/submit_form.php" method="post">
+                  <label for="name">Họ và tên:</label>
+                  <input type="text" id="name" name="name" required><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br>
+                  <label for="message">Câu hỏi dành cho chúng tôi:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea><br>
+                  <input type="submit" value="Gửi">
+              </form>
+          </div>
+      </body>
+      </html>
+      
